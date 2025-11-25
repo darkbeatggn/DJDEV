@@ -1209,3 +1209,111 @@ footer:before {
     border: none;
     border-radius: 8px;
 }
+
+/* Mobile Hero Section Fix */
+@media (max-width: 768px) {
+    .hero {
+        padding: 80px 0 40px;
+        min-height: 100vh;
+        height: auto;
+    }
+    
+    .hero-content {
+        padding-top: 20px;
+    }
+    
+    .hero-text {
+        margin-top: 0;
+    }
+    
+    .hero h1 {
+        font-size: 2.8rem;
+        margin-bottom: 5px;
+        line-height: 1;
+    }
+    
+    .hero-divider {
+        font-size: 1.3rem;
+        margin: 2px 0;
+        transform: scale(0.7);
+    }
+    
+    .hero h2 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+    
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+    
+    /* Reduce header height on mobile */
+    header {
+        padding: 5px 0;
+    }
+    
+    .navbar {
+        padding: 10px 0;
+    }
+    
+    .nav-links.active {
+        top: 60px;
+        height: calc(100vh - 60px);
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 70px 0 30px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-divider {
+        font-size: 1.1rem;
+        transform: scale(0.6);
+    }
+    
+    .hero h2 {
+        font-size: 1rem;
+    }
+    
+    .trust-indicators {
+        margin-top: 30px;
+        max-width: 280px;
+    }
+    
+    .trust-item .number {
+        font-size: 1.3rem;
+    }
+    
+    .trust-item .label {
+        font-size: 0.65rem;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+    .hero {
+        padding: 60px 0 20px;
+    }
+    
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero h2 {
+        font-size: 0.9rem;
+    }
+    
+    .hero p {
+        font-size: 0.9rem;
+    }
+    
+    .cta-buttons {
+        margin-bottom: 20px;
+    }
+}
